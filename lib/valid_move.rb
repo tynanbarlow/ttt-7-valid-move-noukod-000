@@ -8,8 +8,8 @@ def position_taken?(board, index)
   end
 end
 
-def valid_move? (board, index)
-  if position_taken? (board, index)
+def valid_move?(board, index)
+  if position_taken?(board, index)
     return false
   else
     if index <= 8 && index >= 0
