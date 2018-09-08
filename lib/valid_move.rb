@@ -13,6 +13,8 @@ def valid_move?
     return false
   else
     if index <= 8 && index >= 0
+      return true
+    end
   end
 
 end
